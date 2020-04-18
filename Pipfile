@@ -10,6 +10,9 @@ django = "*"
 django-crispy-forms = "*"
 pillow = "*"
 gunicorn = "*"
+boto3 = "*"
+boto3pipenv = "*"
+django-storages = "*"
 
 [requires]
 python_version = "3.7"
