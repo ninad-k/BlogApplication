@@ -19,9 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="01abc483-5e97-4798-80e1-0d1d0728e07e" name="Default Changelist" comment="Added Procfile">
-      <change afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="01abc483-5e97-4798-80e1-0d1d0728e07e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/django_backend/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_backend/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +115,7 @@
       <workItem from="1587190003981" duration="3000" />
       <workItem from="1587190246335" duration="1727000" />
       <workItem from="1587198865781" duration="15004000" />
-      <workItem from="1587234509873" duration="420000" />
+      <workItem from="1587234509873" duration="626000" />
     </task>
     <task id="LOCAL-00001" summary="Added user profile and login/logout functionality">
       <created>1587166793942</created>
@@ -153,7 +152,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587233972701</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added Procfile">
+      <created>1587234995962</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1587234995962</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -203,10 +209,10 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2645" y="321" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1587234107993" />
-    <state x="2503" y="86" width="1160" height="867" key="CommitChangelistDialog2" timestamp="1587234910125">
+    <state x="2408" y="91" width="1160" height="867" key="CommitChangelistDialog2" timestamp="1587234995094">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2503" y="86" width="1160" height="867" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1587234910125" />
+    <state x="2408" y="91" width="1160" height="867" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1587234995094" />
     <state x="2725" y="191" key="FileChooserDialogImpl" timestamp="1587190948801">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
@@ -231,10 +237,10 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2381" y="164" key="SettingsEditor/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1587233131385" />
-    <state x="2472" y="252" key="Vcs.Push.Dialog.v2" timestamp="1587233976639">
+    <state x="2472" y="252" key="Vcs.Push.Dialog.v2" timestamp="1587234998201">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2472" y="252" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1587233976639" />
+    <state x="2472" y="252" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1587234998201" />
     <state x="2659" y="364" key="cloudConfig.PluginsDialog" timestamp="1587155818187">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>

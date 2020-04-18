@@ -24,7 +24,7 @@ SECRET_KEY = ')b1gbuyjda29xqb**_k&mi9zat^b*%11q24w7@*vi+&eh_1$#7'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['mentoringangelapp.herokuapp.com']
 
 # Application definition
 
