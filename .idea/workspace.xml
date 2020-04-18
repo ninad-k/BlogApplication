@@ -1,8 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="01abc483-5e97-4798-80e1-0d1d0728e07e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="01abc483-5e97-4798-80e1-0d1d0728e07e" name="Default Changelist" comment="Added sqllite db back">
+      <changelist_data name="Ninad K" email="ninadkulkarni@outlook.com" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -10,7 +29,6 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ChangesViewManager" show_ignored="true" />
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
@@ -62,6 +80,7 @@
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="django_backend.settings" />
       </envs>
       <option name="SDK_HOME" value="C:\Users\Ninad\.virtualenvs\MentoringAngelApp-9dQpbMZF\Scripts\python.exe" />
       <option name="WORKING_DIRECTORY" value="" />
@@ -118,6 +137,18 @@
   <component name="UpdateCopyrightCheckinHandler">
     <option name="UPDATE_COPYRIGHT" value="true" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
@@ -147,22 +178,22 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2725" y="191" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1587190948801" />
-    <state width="1877" height="161" key="GridCell.Tab.0.bottom" timestamp="1587170148783">
+    <state width="1877" height="161" key="GridCell.Tab.0.bottom" timestamp="1587192835095">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="161" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1587170148783" />
-    <state width="1877" height="161" key="GridCell.Tab.0.center" timestamp="1587170148783">
+    <state width="1877" height="161" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1587192835095" />
+    <state width="1877" height="161" key="GridCell.Tab.0.center" timestamp="1587192835094">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="161" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1587170148783" />
-    <state width="1877" height="161" key="GridCell.Tab.0.left" timestamp="1587170148783">
+    <state width="1877" height="161" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1587192835094" />
+    <state width="1877" height="161" key="GridCell.Tab.0.left" timestamp="1587192835094">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="161" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1587170148783" />
-    <state width="1877" height="161" key="GridCell.Tab.0.right" timestamp="1587170148783">
+    <state width="1877" height="161" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1587192835094" />
+    <state width="1877" height="161" key="GridCell.Tab.0.right" timestamp="1587192835095">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="161" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1587170148783" />
+    <state width="1877" height="161" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1587192835095" />
     <state x="2381" y="164" key="SettingsEditor" timestamp="1587190956233">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
